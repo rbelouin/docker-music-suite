@@ -7,6 +7,12 @@ Quote from [music-suite.github.io](http://music-suite.github.io/docs/ref/):
 
 > The Music Suite is a language for description, analysis, composition and manipulation of music. It is embedded in the Haskell language, meaning that it is both a language in its own right and a set of Haskell libraries.
 
+### How do I install the image on my machine?
+
+```
+docker pull rbelouin/music-suite
+```
+
 ### What is the purpose of this image?
 
 The Music Suite stack is quite massive and hard to maintain, because it needs:
