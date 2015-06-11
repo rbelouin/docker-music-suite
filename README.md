@@ -30,3 +30,12 @@ So do only your job, and write Haskell! Don't spend tons of minutes waiting for 
 - Tex Live (2014.20141024-2)
 - Lilypond (2.18.2)
 - The Music Suite (1.8.1)
+
+### How should I use it?
+
+Some `make` commands are available:
+
+- `make [build]`: build an image from the Dockerfile
+- `make run`: run a container using the music-suite image, and start GHCI with Music.Prelude loaded
+- `make start-docker`: start the docker service, using systemctl
+- `make stop-docker`: stop the docker service, using systemctl
