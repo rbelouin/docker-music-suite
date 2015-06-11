@@ -10,4 +10,9 @@ RUN cabal update
 # Install music-suite
 RUN cabal install 'music-suite >=1.8 && <1.9'
 
-CMD "/bin/bash"
+# Import Music.Prelude at start in GHCI
+RUN echo ':m +Music.Prelude' >> ~/.ghci
+
+WORKDIR /root
+
+CMD "ghci"
