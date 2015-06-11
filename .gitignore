@@ -1,0 +1,6 @@
+scores/*.count
+scores/*.eps
+scores/*.ly
+scores/*.pdf
+scores/*.tex
+scores/*.texi

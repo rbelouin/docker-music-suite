@@ -37,5 +37,6 @@ Some `make` commands are available:
 
 - `make [build]`: build an image from the Dockerfile
 - `make run`: run a container using the music-suite image, and start GHCI with Music.Prelude loaded
+- `make music2pdf`: run a container compiling all the `*.music` files of the `scores/` folder into PDFs
 - `make start-docker`: start the docker service, using systemctl
 - `make stop-docker`: stop the docker service, using systemctl
