@@ -1,4 +1,5 @@
 FROM haskell:7.8
+MAINTAINER Rodolphe Belouin <rodolphe.belouin@gmail.com>
 
 # We need lilypond for generating music scores
 RUN apt-get update && apt-get install -y --no-install-recommends lilypond
