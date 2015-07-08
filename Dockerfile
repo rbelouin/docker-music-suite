@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends lilypond
 RUN cabal update
 
 # Install music-suite
-RUN cabal install 'music-suite >=1.8 && <1.9'
+RUN cabal install 'music-suite >=1.9 && <1.10'
 
 # Import Music.Prelude at start in GHCI
 RUN echo ':m +Music.Prelude' >> ~/.ghci
